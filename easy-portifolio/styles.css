@@ -1,0 +1,64 @@
+/* Importando a fonte Didot do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Didot&display=swap');
+
+/* Estilo geral da página */
+body {
+  font-family: 'Didot', serif; /* Usando a fonte Didot */
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-size: 18px; /* Tamanho de fonte maior para o corpo */
+  color: #333;
+}
+
+/* Contêiner da escala */
+#escala-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+  border-left: 5px solid red; /* Borda vermelha para destacar */
+}
+
+/* Título da escala */
+h2 {
+  color: red;
+  font-size: 28px; /* Aumentando o tamanho do título */
+  margin-bottom: 20px;
+  font-weight: normal; /* Ajustando o peso da fonte para o título */
+}
+
+/* Estilo da lista */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Estilo de cada item da lista */
+li {
+  margin: 15px 0;
+  font-size: 20px; /* Tamanho da fonte para os itens da lista */
+  font-weight: 400;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Destaque para os nomes dos trabalhadores */
+strong {
+  font-weight: bold;
+  color: red; /* Nome em vermelho */
+  font-size: 22px; /* Tamanho maior para os nomes */
+}
+
+/* Estilo das informações da tarefa */
+span {
+  color: #555;
+  font-size: 18px; /* Tamanho de fonte para as tarefas */
+}
